@@ -144,4 +144,30 @@ body {
 }
 /* Top Section End */
 
+/* Middle Section */
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+    margin: 100px auto;
+    background-color: #E5E7EB;
+}
+
+.middle-section .quote {
+    width: 70%;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+figcaption {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+}
+/* Middle Section End */
 /* Main End */
